@@ -1,0 +1,121 @@
+{
+  "usesTypeScript": true,
+  "usesStyledComponents": false,
+  "usesCssModule": true,
+  "cssPreprocessor": "scss",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false,
+      "withIndex": true,
+      "customTemplates": {
+        "component": "grc/templates/default/TemplateName.tsx",
+        "style": "grc/templates/default/TemplateName.styles.scss",
+        "story": "grc/templates/default/TemplateName.stories.ts",
+        "index": "grc/templates/default/index.ts"
+      }
+    },
+    "button": {
+      "path": "src/components/buttons",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false,
+      "withIndex": true,
+      "customTemplates": {
+        "component": "grc/templates/default/TemplateName.tsx",
+        "style": "grc/templates/default/TemplateName.styles.scss",
+        "story": "grc/templates/buttons/TemplateName.stories.ts",
+        "index": "grc/templates/default/index.ts"
+      }
+    },
+    "typography": {
+      "path": "src/components/typography",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false,
+      "withIndex": true,
+      "customTemplates": {
+        "component": "grc/templates/default/TemplateName.tsx",
+        "style": "grc/templates/default/TemplateName.styles.scss",
+        "story": "grc/templates/typography/TemplateName.stories.ts",
+        "index": "grc/templates/default/index.ts"
+      }
+    },
+    "element": {
+      "path": "src/components/elements",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false,
+      "withIndex": true,
+      "customTemplates": {
+        "component": "grc/templates/default/TemplateName.tsx",
+        "style": "grc/templates/default/TemplateName.styles.scss",
+        "story": "grc/templates/elements/TemplateName.stories.ts",
+        "index": "grc/templates/default/index.ts"
+      }
+    },
+    "feature": {
+      "path": "src/components/features",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false,
+      "withIndex": true,
+      "customTemplates": {
+        "component": "grc/templates/default/TemplateName.tsx",
+        "style": "grc/templates/default/TemplateName.styles.scss",
+        "story": "grc/templates/features/TemplateName.stories.ts",
+        "index": "grc/templates/default/index.ts"
+      }
+    },
+    "section": {
+      "path": "src/components/sections",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false,
+      "withIndex": true,
+      "customTemplates": {
+        "component": "grc/templates/default/TemplateName.tsx",
+        "style": "grc/templates/default/TemplateName.styles.scss",
+        "story": "grc/templates/sections/TemplateName.stories.ts",
+        "index": "grc/templates/default/index.ts"
+      }
+    },
+    "layout": {
+      "path": "src/components/layout",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false,
+      "withIndex": true,
+      "customTemplates": {
+        "component": "grc/templates/default/TemplateName.tsx",
+        "style": "grc/templates/default/TemplateName.styles.scss",
+        "story": "grc/templates/layout/TemplateName.stories.ts",
+        "index": "grc/templates/default/index.ts"
+      }
+    },
+    "page": {
+      "path": "src/components/pages",
+      "withStyle": true,
+      "withTest": true,
+      "withStory": true,
+      "withLazy": false,
+      "withIndex": true,
+      "customTemplates": {
+        "component": "grc/templates/default/TemplateName.tsx",
+        "style": "grc/templates/default/TemplateName.styles.scss",
+        "story": "grc/templates/pages/TemplateName.stories.ts",
+        "index": "grc/templates/default/index.ts"
+      }
+    }
+  }
+}
